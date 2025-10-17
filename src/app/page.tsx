@@ -21,10 +21,10 @@ export default function Page() {
       <div id="nav" data-section="nav" className="scroll-mt-24">
         <NavbarLayoutFloatingInline
           navItems={[
-            { label: "Home", href: "hero" },
-            { label: "About Us", href: "about" },
-            { label: "Services", href: "feature" },
-            { label: "Contact", href: "contact" }
+            { label: "Home", href: "#hero" },
+            { label: "About Us", href: "#about" },
+            { label: "Services", href: "#feature" },
+            { label: "Contact", href: "#contact" }
           ]}
           brandName="Your IT Company"
         />
@@ -36,8 +36,8 @@ export default function Page() {
             description="Empowering businesses with cutting-edge technology solutions."
             imageSrc="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             buttons={[
-              { text: "Learn More", href: "about" },
-              { text: "Contact Us", href: "contact" }
+              { text: "Learn More", href: "#about" },
+              { text: "Contact Us", href: "#contact" }
             ]}
           />
         </div>
