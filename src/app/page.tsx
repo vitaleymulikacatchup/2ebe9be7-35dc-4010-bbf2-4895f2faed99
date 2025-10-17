@@ -21,10 +21,10 @@ export default function Page() {
       <div id="nav" data-section="nav" className="scroll-mt-24">
         <NavbarLayoutFloatingInline
           navItems={[
-            { label: "Home", href: "#hero" },
-            { label: "About Us", href: "#about" },
-            { label: "Services", href: "#feature" },
-            { label: "Contact", href: "#contact" }
+            { name: "Home", id: "hero" },
+            { name: "About Us", id: "about" },
+            { name: "Services", id: "feature" },
+            { name: "Contact", id: "contact" }
           ]}
           brandName="Your IT Company"
         />
